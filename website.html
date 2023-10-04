@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website</title>
+        <style>
+            body{
+            margin: 0;
+            background-image: url('im.jpg');
+            background-size: 100%;
+            }
+        #boxDiv{
+            border:1px solid rgb(17, 16, 16);
+            margin:auto;
+            width:300px;
+            height:70px;
+            margin-top: 2%;
+            text-align: center;
+        }
+        #boxHeader,label,a{
+            color:black;
+            text-decoration: none;
+            text-align: center;
+            }
+        .topbox{    
+                background-color: black;
+                overflow: hidden;
+            }
+        .topbox a{
+                float:left;
+                color: white;
+                text-align:center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+        .topbox a:hover{
+                background-color: white;
+                color: black;
+            }
+        .topbox a.first{
+                background-color: rgba(94, 25, 25, 0.795);
+                color: white;
+            }
+        #image{
+            width:100%;
+            height: 500px;               
+        }
+        #divcont{
+            text-align: center;
+        }
+        .ParaBox{
+                border: 1px solid black;
+                margin:10px;
+                padding: 10px ;
+                border-radius: 20px;
+                width:30%;
+                text-align: center;
+            }
+        .ParaBox img
+            { 
+                width:70%;
+                margin-top: 4%;
+            }
+            .videos{
+                margin-left: 25%;
+            }
+        #flexBoxes1{
+                display: flex; 
+            }
+        .endBox{
+                margin:40px;
+                padding: 30px ;
+                width:30%;
+                text-align:justify   
+            }
+        article{
+                padding-top: 2%;
+            }
+        #footer{
+            text-align: center;
+        }
+        #logo{
+             width:50px;
+             height: 50px;    
+        }
+        </style>
+    </head>
+    <body>
+            <div class="topbox">
+            <a class="first" href="#Home"> Home</a>
+            <a href="#Menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <br>
+        <div id="boxDiv"> 
+            <h1>COFFEE HOUSE</h1>
+        </div>
+        <br>
+        <br>
+        <img src="caf.jpg" id="image"/>
+        <br>
+        <br>
+        <br>
+        <div class="divcont">
+            <p>
+                <h1 id="divcont"> ABOUT US </h1>
+                <h2> <i>We, Coffee House situated at Chennai, are one of the favourite hangout for coffee and conversations. We strive to provide the best experience to our guests. Our objective is to provide an authentic coffee drinking experience in a warm, friendly, no pressure environment. We try to bring relaxation to the city keeping into mind a cozy place that serves coffee, with couches to lounge in while you sip.</i></h2>
+            </p>
+        </div>
+        <br>
+        <div>
+            <p>
+                <h1>WHAT'S NEW??</h1>
+            </p>
+        </div>
+        <section>
+            <div>
+                <article>
+                    <div id="flexBoxes1">
+                <span class="ParaBox">
+                    <img src="cof1.jpg"> 
+                    <br/>
+                    <br/>
+                    <b>CAFE WHITE</b>
+                </span>
+                <span class="ParaBox">
+                    <img src="cof2.jpg">
+                    <br/>
+                    <br/>
+                    <b>EXPRESSO</b>
+                </span>
+                <span class="ParaBox">
+                    <img src="cof3.jpg">
+                    <br/>
+                     <br/>
+                    <b>CAFFE MOCHA</b>
+                </span>
+            </article>
+            </div>
+        </section>
+        <br><br/>
+        <div class="videos" >
+            <p>
+                <h1>WHY EVERYONE CHOOSE US?</h1>
+            </p>
+        <video height="400" width="500" controls >
+            <source src="coffee.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video><br/>
+          <p><h2> "QUALITY And HYGIENE is our Priority" 
+            
+          </h2>
+          </p>
+        </div>
+        <section>
+            <article>
+                <div id="flexBoxes1">
+                    <span class="endBox">
+        <p>
+        <p><h4><b>OPENING HOURS</b></h4></p>
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>SUNDAY 10:00 - 24:00</p>
+        </span>
+        <span class="endBox">
+        <p>
+        <h4>CONTACT US </h4></p>
+        +91-948279274
+        <br/>
+        <br/>
+        coffeehouse@gmail.com
+        </p>
+        </span>
+        <span class="endBox">
+            <h4>FIND US</h4>
+            5th floor,New link road,
+            <br>
+            chennai-600122
+        </span>
+        <br/>
+        <br/>
+    </article>
+    </section>
+    <br/>
+        <div id="footer">
+         <footer>
+            <p>
+                <h4>Copyright&copy; 2021-2025.COFFEE HOUSE.All rights reserved.</h4>
+            </p>
+        <img src="wimg.jpg" id="logo"/>
+         </footer>
+        </div>
+    </body>
+</html>
